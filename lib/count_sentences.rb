@@ -6,7 +6,7 @@ class String
    if self.end_with?("!")
       put "true"
   end
-
+binding.pry
   def question?
 
   end
