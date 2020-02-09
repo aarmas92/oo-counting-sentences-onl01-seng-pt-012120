@@ -8,16 +8,28 @@ class String
     else
       return false
   end
-      self.ends_with?("?")
+  
   def question?
-
+    if self.ends_with?("?")
+      return true
+    else
+      return false
+    end  
   end
 
   def exclamation?
-
+    if self.ends_with?("!")
+      return true
+    else
+      return false
+    end  
   end
 
   def count_sentences
-
+    if self.count_sentences 
+      return true
+    else
+      return false
+    end  
   end
 end
