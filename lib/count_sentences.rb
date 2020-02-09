@@ -7,9 +7,8 @@ class String
       return true
     else
       return false
-      
   end
-
+      self.ends_with?("?")
   def question?
 
   end
