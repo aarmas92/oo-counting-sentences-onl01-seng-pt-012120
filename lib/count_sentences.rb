@@ -16,7 +16,7 @@ class String
       return false
     end  
   end
-binding.pry
+
   def exclamation?
     if self.ends_with?("!")
       return true
