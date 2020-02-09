@@ -26,10 +26,9 @@ class String
   end
 
   def count_sentences
-    if self.count_sentences 
-      return true
-    else
-      return false
+    def self.count_sentences.split
     end  
+      
+    def self.count_sentences.count   
   end
 end
